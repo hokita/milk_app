@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB50CB702AD17CF600C1639C /* MilkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB50CB6F2AD17CF600C1639C /* MilkApp.swift */; };
+		DB50CB722AD17CF600C1639C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB50CB712AD17CF600C1639C /* ContentView.swift */; };
+		DB50CB742AD17CF700C1639C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB50CB732AD17CF700C1639C /* Assets.xcassets */; };
+		DB50CB772AD17CF700C1639C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB50CB762AD17CF700C1639C /* Preview Assets.xcassets */; };
+		DB50CB812AD17CF700C1639C /* MilkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB50CB802AD17CF700C1639C /* MilkTests.swift */; };
+		DB50CB8B2AD17CF700C1639C /* MilkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB50CB8A2AD17CF700C1639C /* MilkUITests.swift */; };
+		DB50CB8D2AD17CF700C1639C /* MilkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB50CB8C2AD17CF700C1639C /* MilkUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB50CB7D2AD17CF700C1639C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB50CB642AD17CF600C1639C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB50CB6B2AD17CF600C1639C;
+			remoteInfo = Milk;
+		};
+		DB50CB872AD17CF700C1639C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB50CB642AD17CF600C1639C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB50CB6B2AD17CF600C1639C;
+			remoteInfo = Milk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB50CB6C2AD17CF600C1639C /* Milk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Milk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB50CB6F2AD17CF600C1639C /* MilkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilkApp.swift; sourceTree = "<group>"; };
+		DB50CB712AD17CF600C1639C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DB50CB732AD17CF700C1639C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB50CB762AD17CF700C1639C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB50CB7C2AD17CF700C1639C /* MilkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MilkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB50CB802AD17CF700C1639C /* MilkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilkTests.swift; sourceTree = "<group>"; };
+		DB50CB862AD17CF700C1639C /* MilkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MilkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB50CB8A2AD17CF700C1639C /* MilkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilkUITests.swift; sourceTree = "<group>"; };
+		DB50CB8C2AD17CF700C1639C /* MilkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB50CB692AD17CF600C1639C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB50CB792AD17CF700C1639C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB50CB832AD17CF700C1639C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB50CB632AD17CF600C1639C = {
+			isa = PBXGroup;
+			children = (
+				DB50CB6E2AD17CF600C1639C /* Milk */,
+				DB50CB7F2AD17CF700C1639C /* MilkTests */,
+				DB50CB892AD17CF700C1639C /* MilkUITests */,
+				DB50CB6D2AD17CF600C1639C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB50CB6D2AD17CF600C1639C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB50CB6C2AD17CF600C1639C /* Milk.app */,
+				DB50CB7C2AD17CF700C1639C /* MilkTests.xctest */,
+				DB50CB862AD17CF700C1639C /* MilkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB50CB6E2AD17CF600C1639C /* Milk */ = {
+			isa = PBXGroup;
+			children = (
+				DB50CB6F2AD17CF600C1639C /* MilkApp.swift */,
+				DB50CB712AD17CF600C1639C /* ContentView.swift */,
+				DB50CB732AD17CF700C1639C /* Assets.xcassets */,
+				DB50CB752AD17CF700C1639C /* Preview Content */,
+			);
+			path = Milk;
+			sourceTree = "<group>";
+		};
+		DB50CB752AD17CF700C1639C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DB50CB762AD17CF700C1639C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DB50CB7F2AD17CF700C1639C /* MilkTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB50CB802AD17CF700C1639C /* MilkTests.swift */,
+			);
+			path = MilkTests;
+			sourceTree = "<group>";
+		};
+		DB50CB892AD17CF700C1639C /* MilkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB50CB8A2AD17CF700C1639C /* MilkUITests.swift */,
+				DB50CB8C2AD17CF700C1639C /* MilkUITestsLaunchTests.swift */,
+			);
+			path = MilkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB50CB6B2AD17CF600C1639C /* Milk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB50CB902AD17CF700C1639C /* Build configuration list for PBXNativeTarget "Milk" */;
+			buildPhases = (
+				DB50CB682AD17CF600C1639C /* Sources */,
+				DB50CB692AD17CF600C1639C /* Frameworks */,
+				DB50CB6A2AD17CF600C1639C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Milk;
+			productName = Milk;
+			productReference = DB50CB6C2AD17CF600C1639C /* Milk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB50CB7B2AD17CF700C1639C /* MilkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB50CB932AD17CF700C1639C /* Build configuration list for PBXNativeTarget "MilkTests" */;
+			buildPhases = (
+				DB50CB782AD17CF700C1639C /* Sources */,
+				DB50CB792AD17CF700C1639C /* Frameworks */,
+				DB50CB7A2AD17CF700C1639C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB50CB7E2AD17CF700C1639C /* PBXTargetDependency */,
+			);
+			name = MilkTests;
+			productName = MilkTests;
+			productReference = DB50CB7C2AD17CF700C1639C /* MilkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB50CB852AD17CF700C1639C /* MilkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB50CB962AD17CF700C1639C /* Build configuration list for PBXNativeTarget "MilkUITests" */;
+			buildPhases = (
+				DB50CB822AD17CF700C1639C /* Sources */,
+				DB50CB832AD17CF700C1639C /* Frameworks */,
+				DB50CB842AD17CF700C1639C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB50CB882AD17CF700C1639C /* PBXTargetDependency */,
+			);
+			name = MilkUITests;
+			productName = MilkUITests;
+			productReference = DB50CB862AD17CF700C1639C /* MilkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB50CB642AD17CF600C1639C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					DB50CB6B2AD17CF600C1639C = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					DB50CB7B2AD17CF700C1639C = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = DB50CB6B2AD17CF600C1639C;
+					};
+					DB50CB852AD17CF700C1639C = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = DB50CB6B2AD17CF600C1639C;
+					};
+				};
+			};
+			buildConfigurationList = DB50CB672AD17CF600C1639C /* Build configuration list for PBXProject "Milk" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB50CB632AD17CF600C1639C;
+			productRefGroup = DB50CB6D2AD17CF600C1639C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB50CB6B2AD17CF600C1639C /* Milk */,
+				DB50CB7B2AD17CF700C1639C /* MilkTests */,
+				DB50CB852AD17CF700C1639C /* MilkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB50CB6A2AD17CF600C1639C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB50CB772AD17CF700C1639C /* Preview Assets.xcassets in Resources */,
+				DB50CB742AD17CF700C1639C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB50CB7A2AD17CF700C1639C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB50CB842AD17CF700C1639C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB50CB682AD17CF600C1639C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB50CB722AD17CF600C1639C /* ContentView.swift in Sources */,
+				DB50CB702AD17CF600C1639C /* MilkApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB50CB782AD17CF700C1639C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB50CB812AD17CF700C1639C /* MilkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB50CB822AD17CF700C1639C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB50CB8B2AD17CF700C1639C /* MilkUITests.swift in Sources */,
+				DB50CB8D2AD17CF700C1639C /* MilkUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB50CB7E2AD17CF700C1639C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB50CB6B2AD17CF600C1639C /* Milk */;
+			targetProxy = DB50CB7D2AD17CF700C1639C /* PBXContainerItemProxy */;
+		};
+		DB50CB882AD17CF700C1639C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB50CB6B2AD17CF600C1639C /* Milk */;
+			targetProxy = DB50CB872AD17CF700C1639C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DB50CB8E2AD17CF700C1639C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB50CB8F2AD17CF700C1639C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB50CB912AD17CF700C1639C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Milk/Preview Content\"";
+				DEVELOPMENT_TEAM = 443FPS7MD6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.hokita.Milk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB50CB922AD17CF700C1639C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Milk/Preview Content\"";
+				DEVELOPMENT_TEAM = 443FPS7MD6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.hokita.Milk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB50CB942AD17CF700C1639C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 443FPS7MD6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.hokita.MilkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Milk.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Milk";
+			};
+			name = Debug;
+		};
+		DB50CB952AD17CF700C1639C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 443FPS7MD6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.hokita.MilkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Milk.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Milk";
+			};
+			name = Release;
+		};
+		DB50CB972AD17CF700C1639C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 443FPS7MD6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.hokita.MilkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Milk;
+			};
+			name = Debug;
+		};
+		DB50CB982AD17CF700C1639C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 443FPS7MD6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.hokita.MilkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Milk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB50CB672AD17CF600C1639C /* Build configuration list for PBXProject "Milk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB50CB8E2AD17CF700C1639C /* Debug */,
+				DB50CB8F2AD17CF700C1639C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB50CB902AD17CF700C1639C /* Build configuration list for PBXNativeTarget "Milk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB50CB912AD17CF700C1639C /* Debug */,
+				DB50CB922AD17CF700C1639C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB50CB932AD17CF700C1639C /* Build configuration list for PBXNativeTarget "MilkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB50CB942AD17CF700C1639C /* Debug */,
+				DB50CB952AD17CF700C1639C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB50CB962AD17CF700C1639C /* Build configuration list for PBXNativeTarget "MilkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB50CB972AD17CF700C1639C /* Debug */,
+				DB50CB982AD17CF700C1639C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB50CB642AD17CF600C1639C /* Project object */;
+}
